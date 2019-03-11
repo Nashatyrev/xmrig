@@ -69,6 +69,7 @@ void xmrig::Config::getJSON(rapidjson::Document &doc) const
 
     auto &allocator = doc.GetAllocator();
 
+	/*
     doc.AddMember("algo", StringRef(algorithm().name()), allocator);
 
     Value api(kObjectType);
@@ -129,6 +130,7 @@ void xmrig::Config::getJSON(rapidjson::Document &doc) const
 #   endif
 
     doc.AddMember("watch", m_watch, allocator);
+	*/
 }
 
 

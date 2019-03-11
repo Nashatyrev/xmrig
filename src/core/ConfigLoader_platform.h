@@ -39,6 +39,7 @@
 
 namespace xmrig {
 
+	static char const usage[] = "";
 
 static char const short_options[] = "a:c:kBp:Px:r:R:s:t:T:o:u:O:v:l:S";
 
